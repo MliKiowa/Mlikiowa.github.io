@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://nanaeo.cn</id>
+    <title>Village • Posts by &#34;hexothemes&#34; tag</title>
+    <link href="https://nanaeo.cn" />
+    <updated>2022-08-04T16:00:00.000Z</updated>
+    <category term="DevLog" />
+    <category term="Gauss" />
+    <category term="SiteLog" />
+    <category term="HexoThemes" />
+    <category term="Hexo" />
+    <category term="Python" />
+    <entry>
+        <id>https://nanaeo.cn/2022/08/04/NewBlog/</id>
+        <title>新博客建好啦</title>
+        <link rel="alternate" href="https://nanaeo.cn/2022/08/04/NewBlog/"/>
+        <content type="html">&lt;p&gt;Hi Hexo,I am Mlikiowa!&lt;br&gt;是全新的Hexo&amp;#x2F;vlolantis博客,我又回来写博客了!&lt;/p&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+
+&lt;div class=&#34;story post-story&#34;&gt;&lt;h2 id=&#34;回忆&#34;&gt;&lt;a href=&#34;#回忆&#34; class=&#34;headerlink&#34; title=&#34;回忆&#34;&gt;&lt;/a&gt;回忆&lt;/h2&gt;&lt;div class=&#34;timeline&#34;&gt;&lt;div class=&#34;timenode&#34;&gt;&lt;div class=&#34;meta&#34;&gt;&lt;p&gt;&lt;p&gt;2019.Previous&lt;/p&gt;
+&lt;/p&gt;&lt;/div&gt;&lt;div class=&#34;body&#34;&gt;&lt;p&gt;使用过Emlog Wordpress来搭建博客，使用过各种博客系统，体验不能说差，只能说没有。&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&#34;timenode&#34;&gt;&lt;div class=&#34;meta&#34;&gt;&lt;p&gt;&lt;p&gt;2019.Done&lt;/p&gt;
+&lt;/p&gt;&lt;/div&gt;&lt;div class=&#34;body&#34;&gt;&lt;p&gt;开始尝试在CSDN 简书平台发布自己的文章，但是后来因为咱不太喜欢平台限制，遂转入Typecho来搭建博客。&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&#34;timenode&#34;&gt;&lt;div class=&#34;meta&#34;&gt;&lt;p&gt;&lt;p&gt;2020.Done&lt;/p&gt;
+&lt;/p&gt;&lt;/div&gt;&lt;div class=&#34;body&#34;&gt;&lt;p&gt;一开始typecho小而美的感觉是很不错的体验，加上我正好会使用PHP，能自己搓插件，所以体验还不错。&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&#34;timenode&#34;&gt;&lt;div class=&#34;meta&#34;&gt;&lt;p&gt;&lt;p&gt;2021.Done&lt;/p&gt;
+&lt;/p&gt;&lt;/div&gt;&lt;div class=&#34;body&#34;&gt;&lt;p&gt;期间域名备案和准备高考，并搭建了一个运行在国内的typecho博客。&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&#34;timenode&#34;&gt;&lt;div class=&#34;meta&#34;&gt;&lt;p&gt;&lt;p&gt;2022.Done&lt;/p&gt;
+&lt;/p&gt;&lt;/div&gt;&lt;div class=&#34;body&#34;&gt;&lt;p&gt;上半年:因为没有空闲时间打理博客，备案因无法联系注销，后来意外将电脑中typecho的备份删除，故跑路。&lt;br&gt;下半年:借大佬之手找回了数据，但准备重新开始，于是依靠Hexo搭建了全新的博客，走上了白嫖之路。&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;事件前言:&lt;/strong&gt; 各位好啊，以上就是我的悲剧经历了，现在我又新搭了博客，使用Hexo博客来进行搭建，依托serverless和action等工具实现。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;备案悲剧:&lt;/strong&gt; 之前我一直使用typecho，服务器和域名在国内备案，高中学业繁忙，每天都忙着学习。&lt;br&gt;所以个人就没有时间处理相关的事情，审核电话我也没有接到，导致国内备案掉了，加上本来博文写的就不怎么样，后来干脆就直接删掉跑路了，虽然后面通过大佬进行找回了，我也是决定从头开始了。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;计划上线:&lt;/strong&gt; 直到2022年的下半年毕业，我终于想起时修理博客，却又嫌折腾博客麻烦，国内备案审核挺烦。&lt;br&gt;本来是计划在另一位大佬那里使用Typecho搭建博客，因为typecho某些地方有些实在是难受，导致我实在是忍受不了痛苦了(恼，于是很快决定更换博客系统。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;实际行动:&lt;/strong&gt; 于是我决定博客使用hexo搭建，并且以低成本实现搭个稳定的博客，&lt;br&gt;本博客是非常容易在新设备上使用，轻松可以在新的地方迁移使用，将跑路可能性降到最低了。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;博客运行环境&#34;&gt;&lt;a href=&#34;#博客运行环境&#34; class=&#34;headerlink&#34; title=&#34;博客运行环境&#34;&gt;&lt;/a&gt;博客运行环境&lt;/h3&gt;&lt;div class=&#34;table&#34;&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Content&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;Blog&lt;/td&gt;
+&lt;td&gt;Hexo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Theme&lt;/td&gt;
+&lt;td&gt;volantis&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;platform&lt;/td&gt;
+&lt;td&gt;vercel＆Github&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;domain&lt;/td&gt;
+&lt;td&gt;nanaeo.cn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;小吐槽:&lt;/strong&gt; 之前还想试试&lt;code&gt;hexo-theme-diaspora&lt;/code&gt;这样的主题，&lt;br&gt;这款博客是从wp移植到hexo的，介绍图很好看，可惜作者没更新了，于是我只能选择其它主题了。&lt;br&gt;所以我换成了&lt;strong&gt;volantis&lt;/strong&gt;主题 (&lt;code&gt;npm -i hexo-theme-volantis&lt;/code&gt; 可以轻松安装)，个人感觉色调和布局都很好看，可玩程度很高。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;div class=&#34;story post-story&#34;&gt;&lt;h2 id=&#34;博客搭建&#34;&gt;&lt;a href=&#34;#博客搭建&#34; class=&#34;headerlink&#34; title=&#34;博客搭建&#34;&gt;&lt;/a&gt;博客搭建&lt;/h2&gt;&lt;div class=&#34;tag link&#34;&gt;&lt;a class=&#34;link-card&#34; title=&#34;本博客源码项目&#34; href=&#34;https://github.com/MliKiowa/MliKiowa.github.io&#34;&gt;&lt;div class=&#34;left&#34;&gt;&lt;img src=&#34;https://q1.qlogo.cn/g?b=qq&amp;nk=1627126029&amp;s=100&#34; class=&#34;lazyload&#34; data-srcset=&#34;https://q1.qlogo.cn/g?b=qq&amp;nk=1627126029&amp;s=100&#34; srcset=&#34;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&#34;/&gt;&lt;/div&gt;&lt;div class=&#34;right&#34;&gt;&lt;p class=&#34;text&#34;&gt;本博客源码项目&lt;/p&gt;&lt;p class=&#34;url&#34;&gt;https://github.com/MliKiowa/MliKiowa.github.io&lt;/p&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;本博客通过使用GithubAction等方式生成部署分发博文到如githubpage vercel等服务商&lt;br&gt;至于推送到&lt;code&gt;cos/oss .etc storage bucket&lt;/code&gt;还是算了，毕竟谁用谁欠费(容易挨打，好点情况也得宕了)。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;小提示:&lt;/strong&gt; 使用多服务商涉及到Dns分流，像腾讯Dnspod的这种解析服务要交钱升级才能使用，非常的难受，所以我考虑使用动态Api进行切换dns解析。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;小吐槽:&lt;/strong&gt; 居然&lt;code&gt;github workflow&lt;/code&gt;只有已经写好的&lt;code&gt;deploy hugo site to githubpage workflow&lt;/code&gt;，没有hexo自动部署的脚步，于是我照猫画虎写了一个Hexo自动部署脚本，但因水平太菜，用这个workflow还得我改了半天。&lt;br&gt;正当我吐槽这么大个github没人发布自动部署脚本的时候，我在github search找到了类似的workflow，但是我已经写完了，难受。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;div class=&#34;story post-story&#34;&gt;&lt;h2 id=&#34;迁移使用&#34;&gt;&lt;a href=&#34;#迁移使用&#34; class=&#34;headerlink&#34; title=&#34;迁移使用&#34;&gt;&lt;/a&gt;迁移使用&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;本博客通过以下脚本可以快速迁移，从云端Github下载源码然后在本地进行编写博文,提交后直接在使用action刷新博客。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tips:&lt;/strong&gt; 如果你有需要也可以执行以下脚本建立新博客，可以轻松在新设备上运行。&lt;details &gt;&lt;summary&gt; bash.sh &lt;/summary&gt;
+              &lt;div class=&#39;content&#39;&gt;
+              &lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git clone https://github.com/MliKiowa/MliKiowa.github.io&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cd MliKiowa.github.io&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;npm install&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;hexo g&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+              &lt;/div&gt;
+            &lt;/details&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;div class=&#34;story post-story&#34;&gt;&lt;h2 id=&#34;博客内容&#34;&gt;&lt;a href=&#34;#博客内容&#34; class=&#34;headerlink&#34; title=&#34;博客内容&#34;&gt;&lt;/a&gt;博客内容&lt;/h2&gt;&lt;div class=&#34;table&#34;&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Classification&lt;/th&gt;
+&lt;th&gt;Content&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;Dev Exp&lt;/td&gt;
+&lt;td&gt;Free Developer&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Site Log&lt;/td&gt;
+&lt;td&gt;Site Maintenance Log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Life Log&lt;/td&gt;
+&lt;td&gt;Record your life&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt; 
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;小提示:&lt;/strong&gt; 内容的主要以编程和生活为主，不会有资源推荐，也不接受类似站点友链。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;div class=&#34;story post-story&#34;&gt;&lt;h2 id=&#34;期盼&#34;&gt;&lt;a href=&#34;#期盼&#34; class=&#34;headerlink&#34; title=&#34;期盼&#34;&gt;&lt;/a&gt;期盼&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;域名问题:&lt;/strong&gt; 原来的域名看起来好憨，还被&lt;strong&gt;我朋友嘲笑了&lt;/strong&gt;，因此旧域名怎么能配得上新博客，所以我还是注册个符合气质的新域名啊，所以nanaeo.cn诞生了，寓意没有很特别，全凭感觉来，可爱就对了不是嘛(歪头&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;跑路问题:&lt;/strong&gt; 折腾数次各种博客的我真的是太累了，所以本博客能run起来我觉得不是不会去折腾什么新博客了，但是请允许我说一句，我正在努力成为年更博主吧，半年一更就是高产!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内容布局:&lt;/strong&gt; 咱正在正在摸索，你现在看到的排版全是我正在尝试的，我很少使用Hexo，可以说是全新的萌新，但是让我来慢慢完善应该没有任何问题。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;图床问题:&lt;/strong&gt; 这个问题我根本不知道怎么解决我还是摆烂吧，博文能不放图我绝对不会放图出来。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;总结一下:&lt;/strong&gt; 这就是Mlikiowa全新的博客了，Always believe that something wonderful is about to happen.Let’s go!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;</content>
+        <category term="SiteLog" />
+        <category term="HexoThemes" />
+        <category term="Hexo" />
+        <updated>2022-08-04T16:00:00.000Z</updated>
+    </entry>
+</feed>
