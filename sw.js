@@ -9,7 +9,7 @@ const { CacheFirst, NetworkFirst, NetworkOnly, StaleWhileRevalidate } = strategi
 const { ExpirationPlugin } = expiration;
 const { CacheableResponsePlugin } = cacheableResponse;
 
-const cacheSuffixVersion = '-000030', // 缓存版本号 极端重要，修改静态文件后发布网页一定要修改缓存版本号
+const cacheSuffixVersion = '-000050', // 缓存版本号 极端重要，修改静态文件后发布网页一定要修改缓存版本号
     maxEntries = 100;
 
 self.addEventListener('activate', (event) => {
