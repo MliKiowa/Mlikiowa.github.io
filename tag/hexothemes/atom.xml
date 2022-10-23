@@ -3,13 +3,29 @@
     <id>https://nanaeo.cn</id>
     <title>Village • Posts by &#34;hexothemes&#34; tag</title>
     <link href="https://nanaeo.cn" />
-    <updated>2022-08-04T16:00:00.000Z</updated>
-    <category term="DevLog" />
-    <category term="Gauss" />
+    <updated>2022-10-21T16:00:00.000Z</updated>
     <category term="SiteLog" />
     <category term="HexoThemes" />
     <category term="Hexo" />
+    <category term="DevLog" />
+    <category term="Gauss" />
     <category term="Python" />
+    <entry>
+        <id>https://nanaeo.cn/2022/10/21/FriendAuto/</id>
+        <title>友情链接自动化实现</title>
+        <link rel="alternate" href="https://nanaeo.cn/2022/10/21/FriendAuto/"/>
+        <content type="html">&lt;p&gt;友情链接太多管理和审查实在是太麻烦了，有没有那种比较懒的方案?&lt;/p&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+
+&lt;div class=&#34;story post-story&#34;&gt;&lt;h2 id=&#34;开端&#34;&gt;&lt;a href=&#34;#开端&#34; class=&#34;headerlink&#34; title=&#34;开端&#34;&gt;&lt;/a&gt;开端&lt;/h2&gt;&lt;p&gt;Mlikiowa一向认为懒是驱动生产力进步的力量之一，博客的友情链接管理对于我来说真的是太麻烦了。&lt;br&gt;直到我遇见咱的有些朋友的友情使用github仓库的issue pr收集数据，等再通过workflow生成友情页面。&lt;br&gt;显然和我想要的很接近了，但是有很大的缺点就是不标准，兼容各个主题要进行代码层面修改实在是太不方便了，同时这个的实现并没有做到全程自动化，基本必须使用进行人工审核，&lt;br&gt;很明显不符合我对未来生活的想象，一种标准的 高扩展的 基于Github+Python友情链接管理系统就在这种推动生成力的情况下诞生了&lt;br&gt;(目前还在开发中)&lt;/p&gt;
+&lt;/div&gt;&lt;div class=&#34;story post-story&#34;&gt;&lt;h2 id=&#34;核心理念&#34;&gt;&lt;a href=&#34;#核心理念&#34; class=&#34;headerlink&#34; title=&#34;核心理念&#34;&gt;&lt;/a&gt;核心理念&lt;/h2&gt;&lt;p&gt;系统整体使用插件式运行，插件主动暴露自定义事件和绑定需要事件&lt;/p&gt;
+
+&lt;/div&gt;</content>
+        <category term="SiteLog" />
+        <category term="HexoThemes" />
+        <category term="Hexo" />
+        <updated>2022-10-21T16:00:00.000Z</updated>
+    </entry>
     <entry>
         <id>https://nanaeo.cn/2022/08/04/NewBlog/</id>
         <title>新博客建好啦</title>
