@@ -3,34 +3,13 @@
     <id>https://nanaeo.cn</id>
     <title>Village • Posts by &#34;sitelog&#34; tag</title>
     <link href="https://nanaeo.cn" />
-    <updated>2022-10-21T16:00:00.000Z</updated>
+    <updated>2022-08-04T16:00:00.000Z</updated>
+    <category term="DevLog" />
+    <category term="Gauss" />
     <category term="SiteLog" />
     <category term="HexoThemes" />
     <category term="Hexo" />
-    <category term="DevLog" />
-    <category term="Gauss" />
     <category term="Python" />
-    <entry>
-        <id>https://nanaeo.cn/2022/10/21/FriendAuto/</id>
-        <title>友情链接自动化实现</title>
-        <link rel="alternate" href="https://nanaeo.cn/2022/10/21/FriendAuto/"/>
-        <content type="html">&lt;p&gt;友情链接太多管理和审查实在是太麻烦了，有没有那种比较懒的方案?&lt;/p&gt;
-&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
-
-&lt;div class=&#34;story post-story&#34;&gt;&lt;h2 id=&#34;开端&#34;&gt;&lt;a href=&#34;#开端&#34; class=&#34;headerlink&#34; title=&#34;开端&#34;&gt;&lt;/a&gt;开端&lt;/h2&gt;&lt;p&gt;Mlikiowa一向认为懒是驱动生产力进步的力量之一，本来博客写文章对于我来讲就比较麻烦了，加上博客的友情链接管理的话，真的是想开摆了。&lt;br&gt;直到我遇见咱的有些朋友的友情使用github仓库的issue和pr收集数据，再通过workflow生成友情页面。&lt;br&gt;这种方案显然和我想要的偷懒很接近了，但是这个方案有有一个很大的缺点就是不标准，导致兼容各个主题要进行代码层面修改，真的是非常难受，同时这个的方案使用issue的tag标记或者pr的权限来进行审核，所以基本是人工审核，&lt;br&gt;很明显不符合我对未来生活的想象，我尝试在这种方案上进行修改，重新设计了一套 标准化 高扩展性且基于Github+Python友情链接管理系统，这个项目就在这种推动生成力的情况下诞生啦&lt;br&gt;(目前还在开发中 命名 PyFriend )&lt;/p&gt;
-&lt;/div&gt;&lt;div class=&#34;story post-story&#34;&gt;&lt;h2 id=&#34;核心理念&#34;&gt;&lt;a href=&#34;#核心理念&#34; class=&#34;headerlink&#34; title=&#34;核心理念&#34;&gt;&lt;/a&gt;核心理念&lt;/h2&gt;&lt;p&gt;系统整体使用插件式运行，插件主动暴露自定义事件和绑定需要事件，任何包含实际功能的部分都被封装为插件,包括Core(控制整个友情链接生成过程的插件)也是作为插件的形式加载，插件注入接口点优先级是默认插件设置。&lt;br&gt;Core加载过程分析Github触发的事件(pr issue push等)，Core开始按照友情链接生成流程工作，遇到注入点按照约点加载插件即可。&lt;/p&gt;
-&lt;/div&gt;&lt;div class=&#34;story post-story&#34;&gt;&lt;h2 id=&#34;兼容不同网站或者页面&#34;&gt;&lt;a href=&#34;#兼容不同网站或者页面&#34; class=&#34;headerlink&#34; title=&#34;兼容不同网站或者页面&#34;&gt;&lt;/a&gt;兼容不同网站或者页面&lt;/h2&gt;&lt;p&gt;通过插件系统加载不同的友情链接格式生成器插件实现&lt;br&gt;未完待续&lt;/p&gt;
-&lt;/div&gt;&lt;div class=&#34;story post-story&#34;&gt;&lt;h2 id=&#34;插件系统实现&#34;&gt;&lt;a href=&#34;#插件系统实现&#34; class=&#34;headerlink&#34; title=&#34;插件系统实现&#34;&gt;&lt;/a&gt;插件系统实现&lt;/h2&gt;&lt;p&gt;未完待续&lt;/p&gt;
-&lt;/div&gt;&lt;div class=&#34;story post-story&#34;&gt;&lt;h2 id=&#34;插件系统的无限可能&#34;&gt;&lt;a href=&#34;#插件系统的无限可能&#34; class=&#34;headerlink&#34; title=&#34;插件系统的无限可能&#34;&gt;&lt;/a&gt;插件系统的无限可能&lt;/h2&gt;&lt;h3 id=&#34;自动化审查实现&#34;&gt;&lt;a href=&#34;#自动化审查实现&#34; class=&#34;headerlink&#34; title=&#34;自动化审查实现&#34;&gt;&lt;/a&gt;自动化审查实现&lt;/h3&gt;&lt;p&gt;未完待续&lt;/p&gt;
-&lt;h3 id=&#34;公开接口实现&#34;&gt;&lt;a href=&#34;#公开接口实现&#34; class=&#34;headerlink&#34; title=&#34;公开接口实现&#34;&gt;&lt;/a&gt;公开接口实现&lt;/h3&gt;&lt;p&gt;未完待续&lt;/p&gt;
-&lt;h3 id=&#34;独立网页提交实现&#34;&gt;&lt;a href=&#34;#独立网页提交实现&#34; class=&#34;headerlink&#34; title=&#34;独立网页提交实现&#34;&gt;&lt;/a&gt;独立网页提交实现&lt;/h3&gt;&lt;p&gt;vercel function 提供 github Api代理访问，使用github token创建issue或者pr&lt;br&gt;未完待续&lt;/p&gt;
-
-&lt;/div&gt;</content>
-        <category term="SiteLog" />
-        <category term="HexoThemes" />
-        <category term="Hexo" />
-        <updated>2022-10-21T16:00:00.000Z</updated>
-    </entry>
     <entry>
         <id>https://nanaeo.cn/2022/08/04/NewBlog/</id>
         <title>新博客建好啦</title>

@@ -4,11 +4,11 @@
     <title>Village • Posts by &#34;python&#34; tag</title>
     <link href="https://nanaeo.cn" />
     <updated>2022-08-17T16:00:00.000Z</updated>
+    <category term="DevLog" />
+    <category term="Gauss" />
     <category term="SiteLog" />
     <category term="HexoThemes" />
     <category term="Hexo" />
-    <category term="DevLog" />
-    <category term="Gauss" />
     <category term="Python" />
     <entry>
         <id>https://nanaeo.cn/2022/08/17/PythonDecorator/</id>
