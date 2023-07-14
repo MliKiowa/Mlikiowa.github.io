@@ -68,13 +68,13 @@ html >::-webkit-scrollbar-track-piece {
   background: transparent;
 }
 html >::-webkit-scrollbar-thumb {
-  background: #fcc;
+  background: #54b5a0 linear-gradient(45deg, rgba(255,255,255,0.4) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.4) 75%, transparent 75%, transparent);
   cursor: pointer;
   border-radius: 2px;
   -webkit-border-radius: 2px;
 }
 html >::-webkit-scrollbar-thumb:hover {
-  background: #ff5722;
+  background: #54b5a0 linear-gradient(45deg, rgba(255,255,255,0.4) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.4) 75%, transparent 75%, transparent);
 }
 body {
   background-color: var(--color-site-body);
