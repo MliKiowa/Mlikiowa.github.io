@@ -22,7 +22,7 @@
             <description><![CDATA[ &lt;p&gt;高斯滤波的实现&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 
-&lt;div class=&#34;story post-story&#34;&gt;&lt;h2 id=&#34;本文提示&#34;&gt;&lt;a href=&#34;#本文提示&#34; class=&#34;headerlink&#34; title=&#34;本文提示&#34;&gt;&lt;/a&gt;本文提示&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;本文仍然在编辑&amp;#x2F;排版中&lt;/strong&gt;&lt;br&gt;本文提供了相关代码和算法仅为示例学习，并非标准案例，并且OpenCV提供了高斯滤波函数，如果遇到不明白的概念和地方可以参考引用文章理解，也可以尝试在搜索引擎上搜索相关概念和图片示例，由于本站资源原因，暂不提供图片。&lt;/p&gt;
+&lt;div class=&#34;story post-story&#34;&gt;&lt;h2 id=&#34;本文提示&#34;&gt;&lt;a href=&#34;#本文提示&#34; class=&#34;headerlink&#34; title=&#34;本文提示&#34;&gt;&lt;/a&gt;本文提示&lt;/h2&gt;&lt;p&gt;本文提供了相关代码和算法仅为示例学习，并非标准案例，并且OpenCV提供了高斯滤波函数，如果遇到不明白的概念和地方可以参考引用文章理解，也可以尝试在搜索引擎上搜索相关概念和图片示例，由于本站资源原因，暂不提供图片。&lt;/p&gt;
 &lt;p&gt;tips: 本文为了方便仅是灰度图片处理&lt;br&gt;如果需要彩色图片应该尝试修改代码三种通道进行分别处理或其它方法。&lt;/p&gt;
 &lt;/div&gt;&lt;div class=&#34;story post-story&#34;&gt;&lt;h2 id=&#34;概念理解-部分来自百科等&#34;&gt;&lt;a href=&#34;#概念理解-部分来自百科等&#34; class=&#34;headerlink&#34; title=&#34;概念理解(部分来自百科等)&#34;&gt;&lt;/a&gt;概念理解(部分来自百科等)&lt;/h2&gt;&lt;h3 id=&#34;滤波&#34;&gt;&lt;a href=&#34;#滤波&#34; class=&#34;headerlink&#34; title=&#34;滤波&#34;&gt;&lt;/a&gt;滤波&lt;/h3&gt;&lt;p&gt;滤波就对图像像素点及其邻域点的灰度值按照一定的参数规则进行加权平均，可以有效滤去理想图像中叠加的高频噪声。常用的滤波有线性滤波、中值滤波、均值滤波、双边滤波、高斯滤波等。滤波有抑制噪声的作用，但这会使得图像边缘模糊。(摘自别的地方)&lt;/p&gt;
 &lt;h3 id=&#34;低通滤波&#34;&gt;&lt;a href=&#34;#低通滤波&#34; class=&#34;headerlink&#34; title=&#34;低通滤波&#34;&gt;&lt;/a&gt;低通滤波&lt;/h3&gt;&lt;p&gt;低通滤波是一种过滤方式，规则为低频信号能正常通过，而超过设定临界值的高频信号则被阻隔、减弱，图像处理领域可用来模糊。&lt;/p&gt;
