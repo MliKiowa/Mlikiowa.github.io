@@ -84,10 +84,10 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;&lt;div class=&#34;story post-story&#34;&gt;&lt;h2 id=&#34;迁移使用&#34;&gt;&lt;a href=&#34;#迁移使用&#34; class=&#34;headerlink&#34; title=&#34;迁移使用&#34;&gt;&lt;/a&gt;迁移使用&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;本博客通过以下脚本可以快速迁移，从云端Github下载源码然后在本地进行编写博文,提交后直接在使用action刷新博客。&lt;/li&gt;
+&lt;li&gt;本博客通过以下脚本可以快速迁移，从云端Github下载源码然后在本地进行编写博文,提交后直接在使用action刷新博客。 (该内容已经失效)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Tips:&lt;/strong&gt; 如果你有需要也可以执行以下脚本建立新博客，可以轻松在新设备上运行。&lt;details &gt;&lt;summary&gt; bash.sh &lt;/summary&gt;
               &lt;div class=&#39;content&#39;&gt;
-              &lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git clone https://github.com/MliKiowa/MliKiowa.github.io&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cd MliKiowa.github.io&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;npm install&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;hexo g&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+              &lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git clone https://github.com/MliKiowa/nanaeo&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cd MliKiowa.github.io&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;npm install&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;hexo g&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
               &lt;/div&gt;
             &lt;/details&gt;&lt;/li&gt;
 &lt;/ul&gt;
