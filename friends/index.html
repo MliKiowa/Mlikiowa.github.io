@@ -43,12 +43,12 @@
 <meta property="og:site_name" content="Village">
 <meta property="og:description" content="My Friends">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://fastly.jsdelivr.net/npm/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-<meta property="article:published_time" content="2023-12-19T05:16:05.928Z">
-<meta property="article:modified_time" content="2023-12-19T05:16:05.928Z">
+<meta property="og:image" content="https://fastly.jsdelivr.net/npm/volantis-static/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+<meta property="article:published_time" content="2023-12-19T05:17:38.091Z">
+<meta property="article:modified_time" content="2023-12-19T05:17:38.091Z">
 <meta property="article:author" content="Mlikiowa">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://fastly.jsdelivr.net/npm/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+<meta name="twitter:image" content="https://fastly.jsdelivr.net/npm/volantis-static/media/org.volantis/blog/favicon/android-chrome-192x192.png">
   <style>
     /* 首屏样式 */
     #safearea {
@@ -1631,8 +1631,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   volantis.GLOBAL_CONFIG ={
     debug: "env",
     cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
-    default: {"avatar":"https://fastly.jsdelivr.net/npm/media/placeholder/avatar/round/3442075.svg","link":"https://fastly.jsdelivr.net/npm/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://fastly.jsdelivr.net/npm/media/placeholder/cover/76b86c0226ffd.svg","image":"https://fastly.jsdelivr.net/npm/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1702962982640),
+    default: {"avatar":"https://fastly.jsdelivr.net/npm/volantis-static/media/placeholder/avatar/round/3442075.svg","link":"https://fastly.jsdelivr.net/npm/volantis-static/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://fastly.jsdelivr.net/npm/volantis-static/media/placeholder/cover/76b86c0226ffd.svg","image":"https://fastly.jsdelivr.net/npm/volantis-static/media/placeholder/image/2659360.svg"},
+    lastupdate: new Date(1702963069774),
     sidebar: {
       for_page: ["blogger","category","webinfo"],
       for_post: ["toc"],
@@ -1648,8 +1648,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       }
     },
     plugins: {
-      message: {"enable":true,"css":"https://fastly.jsdelivr.net/npm/libs/izitoast/dist/css/iziToast.min.css","js":"https://fastly.jsdelivr.net/npm/libs/izitoast/dist/js/iziToast.min.js","icon":{"default":"fa-solid fa-info-circle light-blue","quection":"fa-solid fa-question-circle light-blue"},"time":{"default":5000,"quection":20000},"position":"topRight","transitionIn":"bounceInLeft","transitionOut":"fadeOutRight","titleColor":"var(--color-text)","messageColor":"var(--color-text)","backgroundColor":"var(--color-card)","zindex":2147483647,"copyright":{"enable":true,"title":"知识共享许可协议","message":"请遵守 CC BY-NC-SA 4.0 协议。","icon":"far fa-copyright light-blue"},"aplayer":{"enable":true,"play":"fa-solid fa-play","pause":"fa-solid fa-pause"},"rightmenu":{"enable":true,"notice":true}},
-      fancybox: {"css":"https://fastly.jsdelivr.net/npm/libs/@fancyapps/ui/dist/fancybox.css","js":"https://fastly.jsdelivr.net/npm/libs/@fancyapps/ui/dist/fancybox.umd.js"},
+      message: {"enable":true,"css":"https://fastly.jsdelivr.net/npm/volantis-static/libs/izitoast/dist/css/iziToast.min.css","js":"https://fastly.jsdelivr.net/npm/volantis-static/libs/izitoast/dist/js/iziToast.min.js","icon":{"default":"fa-solid fa-info-circle light-blue","quection":"fa-solid fa-question-circle light-blue"},"time":{"default":5000,"quection":20000},"position":"topRight","transitionIn":"bounceInLeft","transitionOut":"fadeOutRight","titleColor":"var(--color-text)","messageColor":"var(--color-text)","backgroundColor":"var(--color-card)","zindex":2147483647,"copyright":{"enable":true,"title":"知识共享许可协议","message":"请遵守 CC BY-NC-SA 4.0 协议。","icon":"far fa-copyright light-blue"},"aplayer":{"enable":true,"play":"fa-solid fa-play","pause":"fa-solid fa-pause"},"rightmenu":{"enable":true,"notice":true}},
+      fancybox: {"css":"https://fastly.jsdelivr.net/npm/volantis-static/libs/@fancyapps/ui/dist/fancybox.css","js":"https://fastly.jsdelivr.net/npm/volantis-static/libs/@fancyapps/ui/dist/fancybox.umd.js"},
       
       
       
@@ -1890,7 +1890,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   volantis.import = {
     jQuery: () => {
       if (typeof jQuery == "undefined") {
-        return volantis.js("https://fastly.jsdelivr.net/npm/libs/jquery/dist/jquery.min.js")
+        return volantis.js("https://fastly.jsdelivr.net/npm/volantis-static/libs/jquery/dist/jquery.min.js")
       } else {
         return new Promise(resolve => {
           resolve()
@@ -2034,11 +2034,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   /******************************************************************************/
   //图像加载出错时的处理
   function errorImgAvatar(img) {
-    img.src = "https://fastly.jsdelivr.net/npm/media/placeholder/avatar/round/3442075.svg";
+    img.src = "https://fastly.jsdelivr.net/npm/volantis-static/media/placeholder/avatar/round/3442075.svg";
     img.onerror = null;
   }
   function errorImgCover(img) {
-    img.src = "https://fastly.jsdelivr.net/npm/media/placeholder/cover/76b86c0226ffd.svg";
+    img.src = "https://fastly.jsdelivr.net/npm/volantis-static/media/placeholder/cover/76b86c0226ffd.svg";
     img.onerror = null;
   }
   /******************************************************************************/
@@ -2420,7 +2420,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   
     <span hidden>
-      <meta itemprop="image" content="https://fastly.jsdelivr.net/npm/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+      <meta itemprop="image" content="https://fastly.jsdelivr.net/npm/volantis-static/media/org.volantis/blog/favicon/android-chrome-192x192.png">
     </span>
   
   <div class="article-meta" id="top">
@@ -2449,7 +2449,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
         
           
-            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2023-12-19T05:16:05+00:00">
+            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2023-12-19T05:17:38+00:00">
   <a class='notlink'>
     <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2023年12月19日</p>
@@ -2891,7 +2891,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateModified" datetime="2023-12-19T05:16:05+00:00">
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2023-12-19T05:17:38+00:00">
   <a class='notlink'>
     <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
     <p>更新于：2023年12月19日</p>
@@ -3064,7 +3064,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 <script>
   
-  volantis.css("https://fastly.jsdelivr.net/npm/libs/@fortawesome/fontawesome-free/css/all.min.css");
+  volantis.css("https://fastly.jsdelivr.net/npm/volantis-static/libs/@fortawesome/fontawesome-free/css/all.min.css");
   
   
   
@@ -3117,7 +3117,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
 
-  <script defer src="https://fastly.jsdelivr.net/npm/libs/vanilla-lazyload/dist/lazyload.min.js"></script>
+  <script defer src="https://fastly.jsdelivr.net/npm/volantis-static/libs/vanilla-lazyload/dist/lazyload.min.js"></script>
 <script>
   // https://www.npmjs.com/package/vanilla-lazyload
   // Set the options globally
@@ -3156,7 +3156,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 	hoverDelay: 0
   };
 </script>
-<script defer src="https://fastly.jsdelivr.net/npm/libs/flying-pages/flying-pages.min.js"></script>
+<script defer src="https://fastly.jsdelivr.net/npm/volantis-static/libs/flying-pages/flying-pages.min.js"></script>
 
 
 
@@ -3309,8 +3309,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <script>
   function load_swiper() {
     if (!document.querySelectorAll(".swiper-container")[0]) return;
-    volantis.css("https://fastly.jsdelivr.net/npm/libs/swiper/swiper-bundle.min.css");
-    volantis.js("https://fastly.jsdelivr.net/npm/libs/swiper/swiper-bundle.min.js").then(() => {
+    volantis.css("https://fastly.jsdelivr.net/npm/volantis-static/libs/swiper/swiper-bundle.min.css");
+    volantis.js("https://fastly.jsdelivr.net/npm/volantis-static/libs/swiper/swiper-bundle.min.js").then(() => {
       pjax_swiper();
     });
   }
@@ -3569,7 +3569,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Village","url":"https://nanaeo.cn/","logo":{"@type":"ImageObject","url":"https://fastly.jsdelivr.net/npm/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Mlikiowa","image":{"@type":"ImageObject","url":"https://fastly.jsdelivr.net/npm/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://nanaeo.cn/","sameAs":["https://github.com/volantis-x"],"description":"It is a little blog～"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://nanaeo.cn/","name":"Village"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Village","url":"https://nanaeo.cn/","keywords":null,"description":"It is a little blog～","author":{"@type":"Person","name":"Mlikiowa","image":{"@type":"ImageObject","url":"https://fastly.jsdelivr.net/npm/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://nanaeo.cn/","description":"It is a little blog～"},"publisher":{"@type":"Organization","name":"Village","url":"https://nanaeo.cn/","logo":{"@type":"ImageObject","url":"https://fastly.jsdelivr.net/npm/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://nanaeo.cn?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"我的朋友们","description":"My Friends","inLanguage":["zh-CN","en","default"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://nanaeo.cn/friends/index.html"},"author":{"@type":"Person","name":"Mlikiowa","image":{"@type":"ImageObject","url":"https://fastly.jsdelivr.net/npm/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://nanaeo.cn/"},"publisher":{"@type":"Organization","name":"Village","logo":{"@type":"ImageObject","url":"https://fastly.jsdelivr.net/npm/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://nanaeo.cn/friends/index.html","wordCount":10,"datePublished":"2023-12-19T05:16:05.928Z","dateModified":"2023-12-19T05:16:05.928Z","image":{"@type":"ImageObject","url":"https://fastly.jsdelivr.net/npm/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Village","url":"https://nanaeo.cn/","logo":{"@type":"ImageObject","url":"https://fastly.jsdelivr.net/npm/volantis-static/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Mlikiowa","image":{"@type":"ImageObject","url":"https://fastly.jsdelivr.net/npm/volantis-static/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://nanaeo.cn/","sameAs":["https://github.com/volantis-x"],"description":"It is a little blog～"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://nanaeo.cn/","name":"Village"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Village","url":"https://nanaeo.cn/","keywords":null,"description":"It is a little blog～","author":{"@type":"Person","name":"Mlikiowa","image":{"@type":"ImageObject","url":"https://fastly.jsdelivr.net/npm/volantis-static/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://nanaeo.cn/","description":"It is a little blog～"},"publisher":{"@type":"Organization","name":"Village","url":"https://nanaeo.cn/","logo":{"@type":"ImageObject","url":"https://fastly.jsdelivr.net/npm/volantis-static/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://nanaeo.cn?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"我的朋友们","description":"My Friends","inLanguage":["zh-CN","en","default"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://nanaeo.cn/friends/index.html"},"author":{"@type":"Person","name":"Mlikiowa","image":{"@type":"ImageObject","url":"https://fastly.jsdelivr.net/npm/volantis-static/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://nanaeo.cn/"},"publisher":{"@type":"Organization","name":"Village","logo":{"@type":"ImageObject","url":"https://fastly.jsdelivr.net/npm/volantis-static/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://nanaeo.cn/friends/index.html","wordCount":10,"datePublished":"2023-12-19T05:17:38.091Z","dateModified":"2023-12-19T05:17:38.091Z","image":{"@type":"ImageObject","url":"https://fastly.jsdelivr.net/npm/volantis-static/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
@@ -3584,7 +3584,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
 
-<script src="https://fastly.jsdelivr.net/npm/libs/pjax/pjax.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/volantis-static/libs/pjax/pjax.min.js"></script>
 
 
 <script>
