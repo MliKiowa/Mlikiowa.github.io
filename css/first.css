@@ -668,7 +668,7 @@ button {
 }
 @font-face {
   font-family: 'Dosis';
-  src: url("https://cdn.jsdelivr.net/gh/moieo/moieo@main/moieo.woff2");
+  src: url("https://fastly.jsdelivr.net/gh/moieo/moieo@main/moieo.woff2");
   font-weight: 'normal';
   font-style: 'normal';
   font-display: swap;
