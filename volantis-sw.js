@@ -8,7 +8,7 @@ const PreCachlist = [
   "/js/search/hexo.js",
 ];
 let NPMMirror = true;
-const NPMPackage = "@mhg/volantis-community";
+const NPMPackage = "@mlikiowa/nanaeo";
 let NPMPackageVersion = "1.0.1674055760561";
 let debug = true;
 // location.hostname == 'localhost' && (debug = true) && (NPMMirror = false);
