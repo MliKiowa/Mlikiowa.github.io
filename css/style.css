@@ -6870,23 +6870,23 @@ p,
 input,
 pre>span,
 textarea {
-  cursor: url("https://unpkg.com/volantis-static@0.0.1654736714924/media/cursor/text.png"), text;
+  cursor: url("https://fastly.jsdelivr.net/npm/media/cursor/text.png"), text;
 }
 .fancybox-container .fancybox-stage,
 .fancybox__carousel .is-draggable {
-  cursor: url("https://unpkg.com/volantis-static@0.0.1654736714924/media/cursor/zoom-out.png"), zoom-out;
+  cursor: url("https://fastly.jsdelivr.net/npm/media/cursor/zoom-out.png"), zoom-out;
 }
 .fancybox a,
 .fancybox-can-zoomIn .fancybox-content,
 .fancybox__carousel .fancybox__slide.can-zoom_in .fancybox__content {
-  cursor: url("https://unpkg.com/volantis-static@0.0.1654736714924/media/cursor/zoom-in.png"), zoom-in;
+  cursor: url("https://fastly.jsdelivr.net/npm/media/cursor/zoom-in.png"), zoom-in;
 }
 span.btn>a:not([href]):hover,
 .fancybox-button[disabled],
 .fancybox-button[disabled]:hover,
 .gt-container .gt-btn.is--disable,
 span.not-select {
-  cursor: url("https://unpkg.com/volantis-static@0.0.1654736714924/media/cursor/circle.png"), not-allowed;
+  cursor: url("https://fastly.jsdelivr.net/npm/media/cursor/circle.png"), not-allowed;
 }
 html,
 a:not([href]),
@@ -6911,7 +6911,7 @@ kbd,
 p > img,
 p > svg,
 .fix-cursor-default {
-  cursor: url("https://unpkg.com/volantis-static@0.0.1654736714924/media/cursor/left_ptr.png"), default;
+  cursor: url("https://fastly.jsdelivr.net/npm/media/cursor/left_ptr.png"), default;
 }
 a,
 psw,
@@ -6972,31 +6972,31 @@ a.result.search-result-fix,
 .tk-action-icon,
 .fancybox,
 .fix-cursor-pointer {
-  cursor: url("https://unpkg.com/volantis-static@0.0.1654736714924/media/cursor/pointer.png"), pointer;
+  cursor: url("https://fastly.jsdelivr.net/npm/media/cursor/pointer.png"), pointer;
 }
 .cur-default {
-  cursor: url("https://unpkg.com/volantis-static@0.0.1654736714924/media/cursor/left_ptr.png"), default !important;
+  cursor: url("https://fastly.jsdelivr.net/npm/media/cursor/left_ptr.png"), default !important;
 }
 .cur-pointer,
 .carousel__button,
 .fancybox__slide {
-  cursor: url("https://unpkg.com/volantis-static@0.0.1654736714924/media/cursor/pointer.png"), pointer !important;
+  cursor: url("https://fastly.jsdelivr.net/npm/media/cursor/pointer.png"), pointer !important;
 }
 .cur-not-allowed {
-  cursor: url("https://unpkg.com/volantis-static@0.0.1654736714924/media/cursor/circle.png"), not-allowed !important;
+  cursor: url("https://fastly.jsdelivr.net/npm/media/cursor/circle.png"), not-allowed !important;
 }
 .cur-zoom-in,
 .fancybox__carousel .fancybox__slide.can-zoom_in .fancybox__content,
 .has-image[data-image-fit=contain].can-zoom_in .fancybox__image {
-  cursor: url("https://unpkg.com/volantis-static@0.0.1654736714924/media/cursor/zoom-in.png"), zoom-in !important;
+  cursor: url("https://fastly.jsdelivr.net/npm/media/cursor/zoom-in.png"), zoom-in !important;
 }
 .cur-zoom-out,
 .fancybox__carousel .is-draggable,
 .has-image[data-image-fit=contain].is-draggable .fancybox__image {
-  cursor: url("https://unpkg.com/volantis-static@0.0.1654736714924/media/cursor/zoom-out.png"), zoom-out !important;
+  cursor: url("https://fastly.jsdelivr.net/npm/media/cursor/zoom-out.png"), zoom-out !important;
 }
 .cur-text {
-  cursor: url("https://unpkg.com/volantis-static@0.0.1654736714924/media/cursor/text.png"), text !important;
+  cursor: url("https://fastly.jsdelivr.net/npm/media/cursor/text.png"), text !important;
 }
 @media screen and (max-width: 500px) {
   #safearea {
@@ -7064,7 +7064,7 @@ section span,
 details summary span,
 .new-meta-box span,
 .nav-tabs span {
-  cursor: url("https://unpkg.com/volantis-static@0.0.1654736714924/media/cursor/left_ptr.png"), default;
+  cursor: url("https://fastly.jsdelivr.net/npm/media/cursor/left_ptr.png"), default;
 }
 .not-select.default-cursor,
 figcaption.default-cursor,
@@ -7073,7 +7073,7 @@ section.default-cursor,
 details summary.default-cursor,
 .new-meta-box.default-cursor,
 .nav-tabs.default-cursor {
-  cursor: url("https://unpkg.com/volantis-static@0.0.1654736714924/media/cursor/left_ptr.png"), default !important;
+  cursor: url("https://fastly.jsdelivr.net/npm/media/cursor/left_ptr.png"), default !important;
 }
 .allow-select {
   -webkit-touch-callout: all;
