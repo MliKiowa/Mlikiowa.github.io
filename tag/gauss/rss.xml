@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>Village • Posts by &#34;gauss&#34; tag</title>
-        <link>https://nanaeo.cn</link>
+        <link>https://10snow.com</link>
         <description>It is a little blog～</description>
         <language>zh-CN,en,default</language>
         <pubDate>Sat, 30 Dec 2023 16:00:00 +0000</pubDate>
@@ -13,9 +13,9 @@
         <category>HexoThemes</category>
         <category>Hexo</category>
         <item>
-            <guid isPermalink="true">https://nanaeo.cn/2023/12/30/2023end/</guid>
+            <guid isPermalink="true">https://10snow.com/2023/12/30/2023end/</guid>
             <title>博客优化与压缩软件</title>
-            <link>https://nanaeo.cn/2023/12/30/2023end/</link>
+            <link>https://10snow.com/2023/12/30/2023end/</link>
             <category>DevLog</category>
             <category>Gauss</category>
             <pubDate>Sat, 30 Dec 2023 16:00:00 +0000</pubDate>
@@ -35,9 +35,9 @@
 &lt;/div&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://nanaeo.cn/2022/08/13/GaussWave/</guid>
+            <guid isPermalink="true">https://10snow.com/2022/08/13/GaussWave/</guid>
             <title>高斯滤波</title>
-            <link>https://nanaeo.cn/2022/08/13/GaussWave/</link>
+            <link>https://10snow.com/2022/08/13/GaussWave/</link>
             <category>DevLog</category>
             <category>Gauss</category>
             <pubDate>Sat, 13 Aug 2022 16:00:00 +0000</pubDate>

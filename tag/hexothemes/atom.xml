@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://nanaeo.cn</id>
+    <id>https://10snow.com</id>
     <title>Village • Posts by &#34;hexothemes&#34; tag</title>
-    <link href="https://nanaeo.cn" />
+    <link href="https://10snow.com" />
     <updated>2022-08-04T16:00:00.000Z</updated>
     <category term="DevLog" />
     <category term="Gauss" />
@@ -10,9 +10,9 @@
     <category term="HexoThemes" />
     <category term="Hexo" />
     <entry>
-        <id>https://nanaeo.cn/2022/08/04/NewBlog/</id>
+        <id>https://10snow.com/2022/08/04/NewBlog/</id>
         <title>新博客建好啦</title>
-        <link rel="alternate" href="https://nanaeo.cn/2022/08/04/NewBlog/"/>
+        <link rel="alternate" href="https://10snow.com/2022/08/04/NewBlog/"/>
         <content type="html">&lt;p&gt;Hi Hexo,I am Mlikiowa!&lt;br&gt;是全新的Hexo&amp;#x2F;vlolantis博客,我又回来写博客了!&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 

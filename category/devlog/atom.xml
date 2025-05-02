@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://nanaeo.cn</id>
+    <id>https://10snow.com</id>
     <title>Village • Posts by &#34;devlog&#34; category</title>
-    <link href="https://nanaeo.cn" />
+    <link href="https://10snow.com" />
     <updated>2023-12-30T16:00:00.000Z</updated>
     <category term="DevLog" />
     <category term="Gauss" />
@@ -10,9 +10,9 @@
     <category term="HexoThemes" />
     <category term="Hexo" />
     <entry>
-        <id>https://nanaeo.cn/2023/12/30/2023end/</id>
+        <id>https://10snow.com/2023/12/30/2023end/</id>
         <title>博客优化与压缩软件</title>
-        <link rel="alternate" href="https://nanaeo.cn/2023/12/30/2023end/"/>
+        <link rel="alternate" href="https://10snow.com/2023/12/30/2023end/"/>
         <content type="html">&lt;div class=&#34;story post-story&#34;&gt;&lt;h2 id=&#34;近况&#34;&gt;&lt;a href=&#34;#近况&#34; class=&#34;headerlink&#34; title=&#34;近况&#34;&gt;&lt;/a&gt;近况&lt;/h2&gt;&lt;p&gt;很久没更新博客了，我觉得回来水一篇，大家也不用考虑我会跑路了，博客域名续了10年，别问钱哪里来的，问就是免费报销的。&lt;br&gt;说回来，很久没写文了不是别的原因，就是因为没米赚没什么回报，而且说仅仅为了写文干什么没有动力，如果为了赚流量为什么不恰烂钱&lt;br&gt;所以说不如鸽了躺在床上，但是最近在写项目，顺便空闲时间给博客直接改造升级一波，然后顺手也写了篇博文总结下最近。&lt;/p&gt;
 &lt;/div&gt;&lt;div class=&#34;story post-story&#34;&gt;&lt;h2 id=&#34;对于整个站点的优化&#34;&gt;&lt;a href=&#34;#对于整个站点的优化&#34; class=&#34;headerlink&#34; title=&#34;对于整个站点的优化&#34;&gt;&lt;/a&gt;对于整个站点的优化&lt;/h2&gt;&lt;p&gt;内部：&lt;br&gt;我对原来的sw.js切换成了官方的Service-Worker.js 然后官方的缓存策略还是很给力的，同时换了张4K背景图格式为WEBP，由原来的vercel拉去githubpage镜像资源改为了vercel也同步生成。&lt;br&gt;同时对老掉牙的Volantis版本升级到了5.8.x版本&lt;/p&gt;
 &lt;p&gt;外部：对英语字体换成了仿苏芙比字体，可以看到非常Cute，这个字体大家偷的时候注意下，不要用于商用，是仿的游戏人物手写，而且我是在b站up那里偷来的，很遗憾不支持中文哦。&lt;/p&gt;
@@ -32,9 +32,9 @@
         <updated>2023-12-30T16:00:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://nanaeo.cn/2022/08/13/GaussWave/</id>
+        <id>https://10snow.com/2022/08/13/GaussWave/</id>
         <title>高斯滤波</title>
-        <link rel="alternate" href="https://nanaeo.cn/2022/08/13/GaussWave/"/>
+        <link rel="alternate" href="https://10snow.com/2022/08/13/GaussWave/"/>
         <content type="html">&lt;p&gt;高斯滤波的实现&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 
