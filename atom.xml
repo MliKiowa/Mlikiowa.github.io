@@ -13,7 +13,7 @@
         <id>https://10snow.com/2023/12/30/2023end/</id>
         <title>博客优化与压缩软件</title>
         <link rel="alternate" href="https://10snow.com/2023/12/30/2023end/"/>
-        <content type="html">&lt;div class=&#34;story post-story&#34;&gt;&lt;h2 id=&#34;近况&#34;&gt;&lt;a href=&#34;#近况&#34; class=&#34;headerlink&#34; title=&#34;近况&#34;&gt;&lt;/a&gt;近况&lt;/h2&gt;&lt;p&gt;很久没更新博客了，我觉得回来水一篇，大家也不用担心我会跑路啦，博客域名已续了10年，别问钱哪里来的，问就是免费报销的啦~&lt;/p&gt;
+        <content type="html">&lt;div class=&#34;story post-story&#34;&gt;&lt;h2 id=&#34;近况&#34;&gt;&lt;a href=&#34;#近况&#34; class=&#34;headerlink&#34; title=&#34;近况&#34;&gt;&lt;/a&gt;近况&lt;/h2&gt;&lt;p&gt;很久没更新博客了，我觉得回来水一篇，大家也不用担心我会跑路啦，博客域名已续了10年，别问钱哪里来的，问就是免费报销的~&lt;/p&gt;
 &lt;p&gt;说回来，很久没写文了并不是别的原因，就是因为没有收入没什么回报，仅仅为了写文章也没什么动力，如果为了赚流量的话为什么不去恰烂钱呢？所以与其这样，不如躺平了算了。不过最近在写项目，顺便空闲时间给博客直接改造升级一波，然后顺手也写了篇博文总结一下最近的情况&lt;/p&gt;
 &lt;/div&gt;&lt;div class=&#34;story post-story&#34;&gt;&lt;h2 id=&#34;对于整个站点的优化&#34;&gt;&lt;a href=&#34;#对于整个站点的优化&#34; class=&#34;headerlink&#34; title=&#34;对于整个站点的优化&#34;&gt;&lt;/a&gt;对于整个站点的优化&lt;/h2&gt;&lt;p&gt;内部：&lt;br&gt;我把原来的sw.js切换成了官方的Service-Worker.js，官方的缓存策略真的很给力的！同时换了张4K背景图，格式为WEBP，由原来的vercel拉取githubpage镜像资源改为了vercel也同步生成。同时对老掉牙的Volantis版本升级到了5.8.x版本。&lt;/p&gt;
 &lt;p&gt;外部：英语字体换成了仿苏芙比字体，是不是看起来非常Cute呀？这个字体大家偷的时候注意一下哦，不要用于商用，它是仿的游戏人物手写体，而且是我从b站up那里”借”来的，很遗憾不支持中文呢~&lt;/p&gt;
